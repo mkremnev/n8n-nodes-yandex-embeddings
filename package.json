@@ -1,12 +1,12 @@
 {
   "name": "n8n-nodes-yandex-embeddings",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yandex Embeddings. Node use embed model from Yandex Cloud",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/mkremnev/n8n-nodes-yandex-embeddings#README.md",
   "author": {
     "name": "Maxim Kremnev",
     "email": "kalausmaks@gmail.com"
@@ -48,7 +48,9 @@
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
-    "@langchain/yandex": "^0.1.0",
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "@langchain/yandex": "^0.1.0"
   }
 }
