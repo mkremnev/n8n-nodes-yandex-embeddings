@@ -18,4 +18,4 @@ apiKey
 
 ## License
 
-You can find the license information [here](https://github.com/n8n-io/n8n/blob/master/README.md#license)
+You can find the license information [here](https://github.com/mkremnev/n8n-nodes-yandex-embeddings/blob/master/LICENSE.md)
