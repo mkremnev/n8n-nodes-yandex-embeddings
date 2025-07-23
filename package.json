@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-yandex-embeddings",
   "version": "0.1.0",
   "description": "",
   "keywords": [
@@ -8,12 +8,12 @@
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Maxim Kremnev",
+    "email": "kalausmaks@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/mkremnev/yandex-embeddings.git"
   },
   "engines": {
     "node": ">=20.15"
@@ -33,12 +33,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/YandexApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/yandexEmbeddings/YandexEmbeddings.node.js"
     ]
   },
   "devDependencies": {
@@ -50,6 +48,7 @@
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
+    "@langchain/yandex": "^0.1.0",
     "n8n-workflow": "*"
   }
 }
