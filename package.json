@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-yandex-embeddings",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yandex Embeddings. Node use embed model from Yandex Cloud",
   "keywords": [
     "n8n-community-node-package"
