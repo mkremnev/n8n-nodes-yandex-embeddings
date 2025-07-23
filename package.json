@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mkremnev/yandex-embeddings.git"
+    "url": "https://github.com/mkremnev/n8n-nodes-yandex-embeddings.git"
   },
   "engines": {
     "node": ">=20.15"
